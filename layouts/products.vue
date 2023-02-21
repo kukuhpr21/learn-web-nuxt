@@ -2,7 +2,7 @@
     <div>
         <header class="shadow-sm bg-white">
             <nav class="container mx-auto p-4 flex justify-between">
-                <nuxt-link to="/products" class="font-bold">Nuxt Kukuh Merch</nuxt-link>
+                <NuxtLink :to="`/products`" class="font-bold">Nuxt Kukuh Merch</NuxtLink>
             </nav>
         </header>
         <div class="container mx-auto p-4">
@@ -10,9 +10,9 @@
         </div>
         <footer class="container mx-auto p-4 flex justify-between border-t-2">
             <ul class="flex gap-4">
-                <li><nuxt-link to="/">Home</nuxt-link></li>
-                <li><nuxt-link to="/about">About</nuxt-link></li>
-                <li><nuxt-link to="/products">Products</nuxt-link></li>
+                <li><NuxtLink :to="`/`">Home</NuxtLink></li>
+                <li><NuxtLink :to="`/about`">About</NuxtLink></li>
+                <li><NuxtLink :to="`/products`">Products</NuxtLink></li>
             </ul>
         </footer>
     </div>
