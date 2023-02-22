@@ -1,4 +1,8 @@
 <template>
+    <head>
+        <Title>Nuxt Kukuh | {{ product.title }}</Title>
+        <Meta name="description" :content="product.description"/>
+    </head>
     <ProductDetails :product="product"/>
 </template>
 
