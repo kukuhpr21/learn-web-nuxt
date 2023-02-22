@@ -15,7 +15,8 @@
 //     }
 // })
 
-const {data} = await useFetch('/api/kukuh')
+// const {data} = await useFetch('/api/kukuh')
+const {data} = await useFetch('/api/currency/GBP')
 </script>
 
 <style lang="scss" scoped>
